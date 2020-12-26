@@ -1,8 +1,10 @@
 #include <iostream>
 
+#include "hellodata.h"
+
 int main()
 {
-    auto msg = {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+    const auto& msg = getData();
 
     for (const auto& word : msg)
     {

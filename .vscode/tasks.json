@@ -26,9 +26,9 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-g",
-                "${file}",
+                "*.cpp",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/hello"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
