@@ -4,6 +4,6 @@
 #include <vector>
 
 std::vector<std::string> getData() {
-    const std::vector<std::string> data = {"Mary", "had", "a", "little", "lamb"};
+    static const std::vector<std::string> data = {"Mary", "had", "a", "little", "lamb"};
     return data;
 }
